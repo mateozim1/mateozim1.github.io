@@ -1,0 +1,15 @@
+{
+  "name": "Matheus França — Portfólio",
+  "short_name": "Matheus França",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f5ef",
+  "theme_color": "#f3f5ef",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
