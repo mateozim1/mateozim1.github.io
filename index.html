@@ -17,6 +17,7 @@
       content="Sistemas úteis precisam sobreviver ao mundo real. Conheça minha trajetória e meus projetos públicos."
     >
     <meta property="og:url" content="https://mateozim1.github.io/">
+    <meta property="og:image" content="https://mateozim1.github.io/assets/matheus-franca.jpg">
     <meta name="twitter:card" content="summary">
     <link rel="canonical" href="https://mateozim1.github.io/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -30,14 +31,28 @@
         "name": "Matheus França Santana",
         "url": "https://mateozim1.github.io/",
         "jobTitle": "Desenvolvedor de software",
+        "image": "https://mateozim1.github.io/assets/matheus-franca.jpg",
+        "email": "mailto:dev.fmatheus@gmail.com",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Maringá",
           "addressRegion": "PR",
           "addressCountry": "BR"
         },
-        "sameAs": ["https://github.com/mateozim1"],
-        "knowsAbout": ["PHP", "Laravel", "Python", "Django", "Desenvolvimento full stack"]
+        "sameAs": [
+          "https://github.com/mateozim1",
+          "https://www.linkedin.com/in/matheusfrancasantana"
+        ],
+        "knowsAbout": [
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "PostgreSQL",
+          "API REST",
+          "Python",
+          "Django",
+          "Desenvolvimento full stack"
+        ]
       }
     </script>
   </head>
@@ -60,6 +75,10 @@
         <a href="#sobre">Sobre</a>
         <a href="#principios">Princípios</a>
         <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+        <a class="nav-external" href="https://www.linkedin.com/in/matheusfrancasantana" target="_blank" rel="noreferrer">
+          LinkedIn <span aria-hidden="true">↗</span>
+        </a>
         <a class="nav-external" href="https://github.com/mateozim1" target="_blank" rel="noreferrer">
           GitHub <span aria-hidden="true">↗</span>
         </a>
@@ -69,17 +88,18 @@
     <main id="conteudo">
       <section id="inicio" class="hero" aria-labelledby="hero-title">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Portfólio profissional <span aria-hidden="true">/</span> Maringá, PR</p>
+          <p class="eyebrow">Full stack <span aria-hidden="true">·</span> 4+ anos <span aria-hidden="true">/</span> Maringá, PR</p>
           <h1 id="hero-title">Sistemas úteis precisam sobreviver ao <em>mundo real.</em></h1>
           <p class="hero-intro">
-            Sou Matheus França Santana, desenvolvedor de software full stack. Atuo com
-            <strong>PHP/Laravel</strong> e <strong>Python/Django</strong> em contextos que conectam tecnologia,
-            construção e agricultura de precisão.
+            Sou Matheus França Santana, desenvolvedor full stack com mais de 4 anos em sistemas corporativos
+            que não podem parar. Trabalho principalmente com <strong>PHP/Laravel</strong> e bancos relacionais,
+            com passagem por <strong>Python/Django</strong>. Os sistemas em que atuei atendem cooperativas de
+            saúde, logística, construção e agronegócio.
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="#projetos">Conhecer os projetos</a>
-            <a class="text-link" href="https://github.com/mateozim1" target="_blank" rel="noreferrer">
-              Ver perfil no GitHub <span aria-hidden="true">↗</span>
+            <a class="text-link" href="#contato">
+              Entrar em contato <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
@@ -117,28 +137,41 @@
 
       <div class="capability-strip" role="group" aria-label="Resumo de tecnologias e contextos">
         <p><span>Backend</span> PHP · Laravel · Python · Django</p>
-        <p><span>Interface</span> Blade · JavaScript · HTML · CSS</p>
-        <p><span>Contextos</span> Construção · Agricultura de precisão</p>
+        <p><span>Dados e integração</span> MySQL · PostgreSQL · API REST</p>
+        <p><span>Setores</span> Saúde · Logística · Construção · Agro</p>
       </div>
 
       <section id="sobre" class="section about" aria-labelledby="about-title">
         <div class="section-heading reveal">
           <p class="eyebrow">Sobre <span aria-hidden="true">/</span> prática</p>
           <h2 id="about-title">Código é uma parte da entrega.</h2>
+          <figure class="portrait">
+            <img
+              src="/assets/matheus-franca.jpg"
+              alt="Retrato de Matheus França Santana"
+              width="800"
+              height="800"
+              loading="lazy"
+              decoding="async"
+            >
+            <figcaption>Matheus França Santana <span aria-hidden="true">/</span> Maringá, PR</figcaption>
+          </figure>
         </div>
         <div class="about-copy reveal" style="--delay: 80ms">
           <p class="lead">
-            Minha evolução profissional está orientada a transformar demandas reais em soluções que possam
-            ser compreendidas, verificadas e mantidas.
+            Trabalho principalmente com o que já existe e não pode parar: encontrar a causa raiz de um problema,
+            corrigir sem quebrar o que funcionava e evoluir o sistema preservando os contratos de quem já
+            depende dele.
           </p>
           <p>
-            Este portfólio organiza evidências públicas dessa trajetória. Aqui, projetos de estudo aparecem como
-            projetos de estudo; experiências profissionais só virarão casos quando puderem ser apresentadas sem
-            expor informações confidenciais.
+            Na prática, isso é integração que não duplica operação quando um retry acontece, permissão que falha
+            fechado, consulta que continua rápida quando a tabela cresce e mudança acompanhada de teste — não de
+            suposição.
           </p>
           <p>
-            O objetivo é mostrar não apenas tecnologias, mas a capacidade de entender o problema, justificar uma
-            decisão e acompanhar o resultado.
+            Este portfólio reúne o que posso mostrar publicamente. O objetivo não é listar tecnologias, e sim
+            deixar visível a forma de trabalhar: entender o problema, justificar a decisão e verificar o
+            resultado.
           </p>
         </div>
       </section>
@@ -282,10 +315,51 @@
           </div>
         </div>
       </section>
+
+      <section id="contato" class="section contact" aria-labelledby="contact-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contato <span aria-hidden="true">/</span> conversa</p>
+          <h2 id="contact-title">Vamos conversar.</h2>
+          <p class="section-note">
+            Aberto a projeto, vaga ou troca técnica. Respondo com mais agilidade por e-mail e LinkedIn.
+          </p>
+        </div>
+
+        <ul class="contact-grid reveal" style="--delay: 80ms">
+          <li>
+            <a class="contact-card" href="mailto:dev.fmatheus@gmail.com">
+              <span class="contact-label">E-mail</span>
+              <span class="contact-value">dev.fmatheus@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact-card"
+              href="https://www.linkedin.com/in/matheusfrancasantana"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">/in/matheusfrancasantana <span aria-hidden="true">↗</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-card" href="https://github.com/mateozim1" target="_blank" rel="noreferrer">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">/mateozim1 <span aria-hidden="true">↗</span></span>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer class="site-footer">
       <p>Matheus França Santana <span aria-hidden="true">/</span> Desenvolvedor de software</p>
+      <nav class="footer-links" aria-label="Links de contato">
+        <a href="mailto:dev.fmatheus@gmail.com">E-mail</a>
+        <a href="https://www.linkedin.com/in/matheusfrancasantana" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/mateozim1" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
       <p>Maringá, PR <span aria-hidden="true">·</span> <span data-year></span></p>
     </footer>
 
