@@ -21,9 +21,9 @@ Depois, acesse `http://localhost:8000`.
 
 ## Publicação
 
-O repositório de usuário `mateozim1.github.io` publica o conteúdo da branch `main` pelo GitHub Pages. O site principal fica em:
+O repositório de usuário `dev-matheusfranca.github.io` publica o conteúdo da branch `main` pelo GitHub Pages. O site principal fica em:
 
-<https://mateozim1.github.io/>
+<https://dev-matheusfranca.github.io/>
 
 ## Conteúdo
 
